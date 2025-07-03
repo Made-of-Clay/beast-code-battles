@@ -1,0 +1,25 @@
+Objective: Help with a game I'm building; your job is to help generate data for parts of the game.
+Title: "Who Would Win?"
+Idea: generate animals from scanned barcodes (12-digit product UPCs) using the numbers to randomize animal stats; then use the discovered animals in competitions to see 'who would win.'
+Game section 1: scan UPC barcodes to discover animals
+Game section 2: choose animals for randomly selected competitions
+I will provide more information next about how animal stats are determined. Are you ready?
+----
+Animals stats will have the following:
+- 3 attributes: Strength (STR), Toughness (TUF), Agility (AGI)
+- 1-3 environments (depending on the animal): land, water, air (e.g. rhino: land; duck: land, water, air; eagle: air; shark: water)
+
+Animal attributes will have an acceptable range. A rhino might have STR of 7-9. It'll never have less than 7 (or whatever the lower range is). Similarly, a hummingbird might have 1-3 STR, but it'll have a higher AGI (speed and/or maneuverability; e.g. 6-8).
+
+Generate 100 animals using JSON, and provide the attribute ranges & most likely environment(s). Let's use the following as a template:
+```json
+{
+  "animal": "{animal name}",
+  "{attribute abbrev}": [{min num}, {max num}],
+  "env": ["land", "water"]
+}
+```
+---
+Next, we need to generate the competitions and a way to score who would win. Example competition: a race across the desert. Water animals wouldn't be allowed to race. A cheetah might do okay, but a camel would do well. (The camel would have a moderate AGI but high TUF. Cheetah has high AGI, but not as TUF.)
+
+What competitions can you think of?

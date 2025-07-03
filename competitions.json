@@ -1,0 +1,22 @@
+[
+  {"competition":"Desert Endurance Race","description":"Race across a scorching desert, battling heat and distance.","eligible_env":["land"],"weights":{"STR":0.2,"TUF":0.5,"AGI":0.3}},
+  {"competition":"Ocean Sprint","description":"High-speed race through open water, dodging currents and obstacles.","eligible_env":["water"],"weights":{"STR":0.3,"TUF":0.1,"AGI":0.6}},
+  {"competition":"Aerial Agility Course","description":"Navigate a sky-based obstacle course with tight turns and wind gusts.","eligible_env":["air"],"weights":{"STR":0.1,"TUF":0.2,"AGI":0.7}},
+  {"competition":"Jungle Brawl","description":"Head-to-head combat in dense jungle, using brute force and quick strikes.","eligible_env":["land"],"weights":{"STR":0.5,"TUF":0.2,"AGI":0.3}},
+  {"competition":"River Crossing Challenge","description":"Cross a raging river, balancing speed and resilience against currents.","eligible_env":["land","water"],"weights":{"STR":0.3,"TUF":0.4,"AGI":0.3}},
+  {"competition":"Mountain Climb","description":"Scale a steep, rocky mountain, requiring power and endurance.","eligible_env":["land"],"weights":{"STR":0.5,"TUF":0.3,"AGI":0.2}},
+  {"competition":"Treetop Chase","description":"High-speed pursuit through a forest canopy, testing agility.","eligible_env":["land","air"],"weights":{"STR":0.25,"TUF":0.15,"AGI":0.6}},
+  {"competition":"Deep Sea Dive","description":"Dive to retrieve an object from the ocean floor, battling pressure.","eligible_env":["water"],"weights":{"STR":0.2,"TUF":0.5,"AGI":0.3}},
+  {"competition":"Savanna Standoff","description":"Test of dominance through displays of power and resilience.","eligible_env":["land"],"weights":{"STR":0.3,"TUF":0.4,"AGI":0.3}},
+  {"competition":"Wetland Relay","description":"Multi-terrain race through marshes, water, and mud.","eligible_env":["land","water"],"weights":{"STR":0.2,"TUF":0.3,"AGI":0.5}},
+  {"competition":"Tundra Trek","description":"Grueling march across icy tundra, battling freezing winds.","eligible_env":["land"],"weights":{"STR":0.2,"TUF":0.5,"AGI":0.3}},
+  {"competition":"Coral Reef Chase","description":"Pursuit through a maze-like coral reef, requiring precise maneuvers.","eligible_env":["water"],"weights":{"STR":0.15,"TUF":0.25,"AGI":0.6}},
+  {"competition":"Sky Dive Showdown","description":"Dive from high altitude, aiming for precision landing.","eligible_env":["air"],"weights":{"STR":0.1,"TUF":0.25,"AGI":0.65}},
+  {"competition":"Swamp Ambush","description":"Stealth and strike challenge in murky swamp, balancing speed and power.","eligible_env":["land","water"],"weights":{"STR":0.3,"TUF":0.2,"AGI":0.5}},
+  {"competition":"Volcanic Sprint","description":"Race across volcanic terrain, dodging lava and ash clouds.","eligible_env":["land"],"weights":{"STR":0.25,"TUF":0.35,"AGI":0.4}},
+  {"competition":"Stormy Skies Race","description":"Race through turbulent skies, battling lightning and wind.","eligible_env":["air"],"weights":{"STR":0.15,"TUF":0.3,"AGI":0.55}},
+  {"competition":"Cave Crawl","description":"Navigate a dark, narrow cave system, requiring endurance and precision.","eligible_env":["land"],"weights":{"STR":0.3,"TUF":0.4,"AGI":0.3}},
+  {"competition":"Kelp Forest Dash","description":"Speed through a dense kelp forest, avoiding entanglement.","eligible_env":["water"],"weights":{"STR":0.2,"TUF":0.2,"AGI":0.6}},
+  {"competition":"Grassland Gauntlet","description":"Endurance run through tall grass, dodging predators and obstacles.","eligible_env":["land"],"weights":{"STR":0.2,"TUF":0.3,"AGI":0.5}},
+  {"competition":"Coastal Clash","description":"Combat on a rocky shore, balancing power and footing.","eligible_env":["land","water"],"weights":{"STR":0.4,"TUF":0.3,"AGI":0.3}}
+]
